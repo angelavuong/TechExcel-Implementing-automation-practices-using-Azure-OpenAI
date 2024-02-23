@@ -1,12 +1,12 @@
 {
-    "AOAIEndpoint": "TODO",
-    "AOAIKey": "TODO",
-    "AOAIDeploymentName": "TODO",
-    "SearchEndpoint": "TODO",
-    "SearchKey": "TODO",
-    "SearchIndex": "TODO",
-    "SpeechKey": "TODO",
-    "SpeechRegion": "TODO",
-    "LanguageEndpoint": "TODO",
-    "LanguageKey": "TODO"
+    "AOAIEndpoint": "https://ange27-openai-instance-1.openai.azure.com",
+    "AOAIKey": "cf0b4ea2776b420899a364277db08866",
+    "AOAIDeploymentName": "ange27gpt4",
+    "SearchEndpoint": "https://sakvilivwokxk-search.search.windows.net",
+    "SearchKey": "LXc5BIajZHUwDC5g5M6MfM1krVych2JuOk8EW8Ym6LAzSeAWMjZp",
+    "SearchIndex": "resort6",
+    "SpeechKey": "28986270bbca4d588fee51aa7736d15f",
+    "SpeechRegion": "eastus2",
+    "LanguageEndpoint": "https://ange27-language.cognitiveservices.azure.com/",
+    "LanguageKey": "4cacab49aa7343649c88e9c9133717cd"
 }
