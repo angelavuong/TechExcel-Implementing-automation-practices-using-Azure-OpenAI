@@ -17,7 +17,8 @@ https://microsoft.github.io/TechExcel-Implementing-automation-practices-using-Az
 This lab requires:
 - Azure OpenAI Service
 - Azure AI Speech Service
-- Azure CosmosDB account
+- Azure CosmosDB Account
+- Azure Search Service
 
 To initiate Streamlit dashboard:
 ```
