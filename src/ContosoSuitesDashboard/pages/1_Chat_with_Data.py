@@ -9,13 +9,14 @@ import azure.cognitiveservices.speech as speechsdk
 st.set_page_config(layout="wide")
 
 with open('config.json') as f:
-    config = json.load(f)
+    config = json.load(f) 
 
 aoai_endpoint = config['AOAIEndpoint']
 aoai_api_key = config['AOAIKey']
 deployment_name = config['AOAIDeploymentName']
 speech_key = config['SpeechKey']
 speech_region = config['SpeechRegion']
+
 
 ### Exercise 02: Chat with customer data
 def create_chat_completion(deployment_name, messages, endpoint, key, index_name):

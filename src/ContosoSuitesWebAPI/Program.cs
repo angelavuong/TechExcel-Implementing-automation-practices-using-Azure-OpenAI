@@ -46,6 +46,7 @@ app.MapGet("/Customer", async (string searchCriterion, string searchValue) =>
     //     AverageRating = 4.5
     // };
     // return customer;
+    // Updated
 
     switch (searchCriterion)
     {

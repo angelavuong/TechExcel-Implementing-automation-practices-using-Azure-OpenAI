@@ -355,6 +355,7 @@ def create_sentiment_analysis_and_opinion_mining_request(call_contents):
     return sentiment
     raise NotImplementedError
 
+
 def create_named_entity_extraction_request(call_contents):
   # The call_contents parameter is formatted as a list of strings. Join them together with spaces to pass in as a single document.
     joined_call_contents = ' '.join(call_contents)
