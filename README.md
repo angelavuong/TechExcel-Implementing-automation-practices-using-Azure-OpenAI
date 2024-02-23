@@ -10,6 +10,29 @@ As the maintainer of this project, please make a few updates:
 - Understanding the security reporting process in SECURITY.MD
 - Remove this section from the README
 
+## Associated Lab Guide
+
+https://microsoft.github.io/TechExcel-Implementing-automation-practices-using-Azure-OpenAI/
+
+This lab requires:
+- Azure OpenAI Service
+- Azure AI Speech Service
+- Azure CosmosDB account
+
+To initiate Streamlit dashboard:
+```
+pip install -r requirements.txt
+cd src\ContosoSuitesDashboard\
+streamlit run Index.py
+```
+
+To build and run Contoso Suites .NET Web App:
+```
+cd src\ContosoSuitesWebAPI\
+dotnet run
+```
+
+
 ## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
